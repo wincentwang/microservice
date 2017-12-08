@@ -20,9 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
-public class DruidConfig {
+public class DataSourceConfig {
 
-	private Logger logger = LoggerFactory.getLogger(DruidConfig.class);
+	private Logger logger = LoggerFactory.getLogger(DataSourceConfig.class);
 
     @Value("${spring.datasource.url:#{null}}")
     private String dbUrl;
