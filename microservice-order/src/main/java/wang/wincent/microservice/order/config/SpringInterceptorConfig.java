@@ -1,4 +1,4 @@
-package wang.wincent.microservice.node1.config;
+package wang.wincent.microservice.order.config;
 
 import java.nio.charset.Charset;
 import java.util.List;
@@ -19,7 +19,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * @author wincent.wang
  */
 @Configuration
-public class SpringMVCConfig extends WebMvcConfigurerAdapter{
+public class SpringInterceptorConfig extends WebMvcConfigurerAdapter{
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {

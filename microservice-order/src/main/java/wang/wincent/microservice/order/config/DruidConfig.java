@@ -1,4 +1,4 @@
-package wang.wincent.microservice.node1.config;
+package wang.wincent.microservice.order.config;
 
 
 import com.alibaba.druid.filter.Filter;
