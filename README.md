@@ -1,17 +1,17 @@
 # MircoService
-This project is the introduction of SpringCloud which contians many commponents,such as Eureka,Robbin,Config,Bus so so.If you have interests in this project,you can clone it. We can work together to imporve this architecture.
+This project is the introduction of SpringCloud which contians many components,such as Eureka,Robbin,Config,Bus so so.If you have interests in this project,you can clone it. We can work together to imporve this architecture.
 
 ### Abstract
 
-* Eureka
-* Ribbion
-* Hystirx
-* Fegin
-* Zuul
-* Config
-* Bus
-* Build with Docker
-* Docker with Nexus
+* Eureka: service regist center.
+* Ribbion: load balance component.
+* Hystirx: fault-tolerant protect.
+* Fegin: decleared,templated http clinet
+* Zuul: microservice gateway
+* Config: config center
+* Bus:  message bus
+* Build with Docker: build by dockerfile
+* Docker with Nexus: image repository
 
 
 
