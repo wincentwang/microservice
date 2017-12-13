@@ -10,10 +10,8 @@ This project is the introduction of SpringCloud which contians many components,s
 * Zuul: microservice gateway
 * Config: config center
 * Bus:  message bus
-* Build with Docker: build by dockerfile
+* Deploy in Docker: build by dockerfile
 * Docker with Nexus: image repository
-
-
 
 
 ## Eureka
@@ -30,4 +28,6 @@ This project is the introduction of SpringCloud which contians many components,s
 
 ## Spring Cloud Bus
 
-## Docker Deploy
+## Deploy in Docker
+
+## Docker with Nexus
