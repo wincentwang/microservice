@@ -1,5 +1,5 @@
 # MircoService
-This project is the introduction of SpringCloud which contians many components,such as Eureka,Robbin,Config,Bus so so.If you have interests in this project,you can clone it. We can work together to imporve this architecture.
+This project is the introduction of SpringCloud which contians many components,such as Eureka,Robbin,Config,Bus so so.If you have interests in this project,you can clone it. We can work together to improve this architecture.
 
 ### Abstract
 
