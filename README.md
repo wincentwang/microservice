@@ -5,7 +5,7 @@ This project is the introduction of SpringCloud which contians many components,s
 
 * Eureka: service regist center.
 * Ribbion: load balance component.
-* Hystirx: fault-tolerant protect.
+* Hystrix: fault-tolerant protect.
 * Fegin: decleared,templated http clinet
 * Zuul: microservice gateway
 * Config: config center
