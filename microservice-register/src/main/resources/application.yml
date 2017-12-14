@@ -1,5 +1,10 @@
 server:
-  port: 8001 #服务端口
+  port: 8000 #服务端口
+
+spring: 
+  application:  
+    name: microservice-register 
+
 eureka:
   client:
     registerWithEureka: false #是否将自己注册到Eureka服务中，本身就是所有无需注册
@@ -7,10 +12,15 @@ eureka:
     serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
       defaultZone: http://127.0.0.1:${server.port}/eureka/
   server:
-    enable-self-preservation: false #禁用自我保护模式
+    enable-self-preservation: true #禁用自我保护模式
 security: 
   basic:  
     enable: true #开启基于HTTP basic的认证
   user: #配置用户的账号信息
     name: admin
-    password: admin      
+    password: admin
+    
+microservice-goods:  
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    

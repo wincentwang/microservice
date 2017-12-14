@@ -43,11 +43,14 @@
 	
 
 	<dependencies>
+	
+	    <!-- SpringBoot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!-- Eureka Client -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
@@ -59,38 +62,56 @@
 			</exclusions>
 		</dependency>
 		
+		<!-- Ribbon -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-ribbon</artifactId>
+		</dependency>
 		
-		 <!-- Junit -->
-	 <dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-test</artifactId>
-		<scope>test</scope>
-	 </dependency>
-	 
-	 <!-- Transaction -->
-	 <dependency>
+		<!-- Okhttp -->
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+		</dependency>
+		
+		<!-- Test -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		<!-- 	<scope>test</scope> -->
+	 	</dependency>
+	 	
+	 	<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+		
+		
+	 <!--  
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-jdbc</artifactId>
-	 </dependency>
+	</dependency>
 	
-	 <!-- WebSocket -->
-	 <dependency>
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-websocket</artifactId>
-	 </dependency>
+	</dependency>
 	 
-	 <!-- Redis -->
-	 <dependency>
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-data-redis</artifactId>
 	</dependency>
 	
-		 <!-- Redis -->
-	 <dependency>
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-amqp</artifactId>
 	</dependency>
-	
 	
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
@@ -189,12 +210,7 @@
 				<artifactId>c3p0</artifactId>
 			</exclusion>
 		</exclusions>
-	 </dependency>
-		
-		
-		
-		
-		
+	 </dependency> -->
 		
 	</dependencies>
 	
