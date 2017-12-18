@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://admin:admin@127.0.0.1:8000/eureka/
+      
+spring:
+  cloud:
+    config:
+      name: microservice #应用名称不能乱配
+      #uri: http://127.0.0.1:8002/
+      profile: dev
+      label: master
+      discovery: 
+        enabled: true #启用发现服务功能
+        service-id: microservice-config #指定服务名称
