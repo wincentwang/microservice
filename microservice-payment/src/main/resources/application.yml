@@ -8,6 +8,6 @@ spring:
     config:
       server:
         git: #配置git仓库地址
-          uri: http://10.129.197.85:3000/wincentwang/config-center.git
+          uri: http://127.0.0.1:3000/wincentwang/config-center.git
           #username: wincentwang
           #password: wincentwang
