@@ -12,5 +12,4 @@ public class RegisterServer {
 	public static void main(String[] args) {
 		SpringApplication.run(RegisterServer.class, args);
 	}
-	
 }
